@@ -1,15 +1,12 @@
 package ver2;
 
 public class Account {
-	// Instance variable, only available inside this class.
+	// Instance variable, only available inside
+        this class.
 	// New Comment for balance
 	private double balance;
 	private String name;
-	// Constructor
-	public Account(double balance) {
-		this("Unknown", balance);
-	}
-	
+		
 	public Account(String name, double balance) {
 		this.name = name;
 		this.balance = balance;
@@ -66,5 +63,4 @@ public class Account {
 		System.out.println(a1.toString());
 		System.out.println(a1);
 	}
-
 }
